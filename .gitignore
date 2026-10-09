@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Captures and exported vendor profiles can contain device-specific settings.
+*.pcap
+*.pcapng
+*.bcf
+
+# Local sniffer output
+keymap.json
